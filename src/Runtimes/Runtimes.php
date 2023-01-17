@@ -78,7 +78,7 @@ class Runtimes
         $this->runtimes['cpp'] = $cpp;
 
         $go = new Runtime('go', 'Go');
-        $go->addVersion('1.17', 'golang:1.19', 'larit/openruntimes-go-1.19', [System::X86, System::ARM]);
+        $go->addVersion('1.19', 'golang:1.19', 'larit/openruntimes-go-1.19', [System::X86, System::ARM]);
         $this->runtimes['go'] = $go;
     }
 
